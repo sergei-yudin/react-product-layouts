@@ -1,0 +1,1 @@
+export default function ShopCard({ card }) { return <article className="shop-card"><h2>{card.name}</h2><p>{card.color}</p><img src={card.img} alt={`${card.name}, ${card.color}`} /><footer><span>${card.price}</span><button type="button">Add to cart</button></footer></article>; }

@@ -1,0 +1,1 @@
+export default function ShopItem({ item }) { return <article className="shop-item"><img src={item.img} alt={`${item.name}, ${item.color}`} /><h2>{item.name}</h2><p>{item.color}</p><span>${item.price}</span><button type="button">Add to cart</button></article>; }
